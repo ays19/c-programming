@@ -9,6 +9,6 @@ int main()
 {
      int a,b;
      scanf("%d %d", &a, &b);
-     sum(a,b);
+     sum(a,b);  //no return so kono value ashbe na and value nite hobe na. int s = sum(a,b); eta hobe na
     return 0;
 }

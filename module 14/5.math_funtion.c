@@ -23,7 +23,7 @@ int main()
     // double ans=pow(x,y);
     // printf("%0.2lf", ans);
 
-    // double ans=abs(x);
+    // double ans=abs(x);  //neew #include<stdlib.h> for abs()
     // printf("%0.2lf", ans);
     return 0;
 }

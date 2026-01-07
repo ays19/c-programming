@@ -6,7 +6,7 @@ int main()
      printf("%p\n", &x);
      int *p=&x;
      printf("%d\n", p);
-     //derefference
+     //derefference- reference theke value ta ber kora
      printf("%d\n", *p);
 
      *p=500;

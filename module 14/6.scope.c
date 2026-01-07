@@ -12,7 +12,7 @@ int fun()
 int main() 
 {
      int s=500;
-     printf("main er s er address %p\n", &s );
+     printf("main er s er address %p\n", &s ); //%p for address
      fun();
     printf("abs %d\n", x);
     return 0;
