@@ -6,7 +6,7 @@ int main()
      int *ptr = &x;
 
      x=200;
-     *ptr = 200  ;
+     *ptr = 200  ; 
      // x-> *ptr are same here
     //  printf("x er address %p\n", &x);
     //  printf("ptr er vlaue %p\n", &x);
