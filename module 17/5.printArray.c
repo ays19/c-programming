@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+//Base Case
 void fun(int a[],int n,int i){
     if (i==n) return;
     printf("%d\n", a[i]);
