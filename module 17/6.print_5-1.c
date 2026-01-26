@@ -4,7 +4,7 @@
 void fun(int i){
     if (i==6) return;
     fun(i+1);
-    printf("%d\n", i);
+    printf("%d\n", i);  //recursion work first
 }
 
 int main(){
