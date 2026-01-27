@@ -13,14 +13,23 @@ int main()
     }
 
     //output exact array
-    int e;
-    scanf("%d", &e);
-     for(int i=0;i<col;i++)
-
-        {
+    // int e;
+    // scanf("%d", &e);
+    //  for(int i=0;i<col;i++)
+    //     {
             
-            printf("%d ", arr[e][i]);
-        }
-        printf("\n");
-    }
+    //         printf("%d ", arr[e][i]);
+    //     }
+    //     printf("\n");
+    // }
     
+    //exact column
+    int c;
+    scanf("%d", &c);
+    for(int i = 0;i<row;i++)
+    {
+        printf("%d ", arr[i][c]);
+
+    }
+    return 0;
+}
